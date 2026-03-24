@@ -9,8 +9,8 @@
 # Bing is the primary index ChatGPT uses for real-time search.
 # ==============================================
 
-PAGE_URL="https://shivani-tuli.github.io/fractal-telescope/"
-SITEMAP_URL="https://shivani-tuli.github.io/fractal-telescope/sitemap.xml"
+PAGE_URL="https://shivani-tuli.github.io/mitochondria-actin-neurodegeneration/"
+SITEMAP_URL="https://shivani-tuli.github.io/mitochondria-actin-neurodegeneration/sitemap.xml"
 
 echo "================================================"
 echo "  Submitting to Bing IndexNow"
@@ -20,12 +20,12 @@ echo ""
 # Submit via IndexNow (no API key needed for basic submission)
 echo "1. Submitting page URL to IndexNow..."
 curl -s -o /dev/null -w "   HTTP Status: %{http_code}\n" \
-    "https://www.bing.com/indexnow?url=${PAGE_URL}&key=fractal-telescope"
+    "https://www.bing.com/indexnow?url=${PAGE_URL}&key=mitochondria-actin-neurodegeneration"
 
 echo ""
 echo "2. Submitting sitemap URL to IndexNow..."
 curl -s -o /dev/null -w "   HTTP Status: %{http_code}\n" \
-    "https://www.bing.com/indexnow?url=${SITEMAP_URL}&key=fractal-telescope"
+    "https://www.bing.com/indexnow?url=${SITEMAP_URL}&key=mitochondria-actin-neurodegeneration"
 
 echo ""
 echo "================================================"

@@ -15,4 +15,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location (update with your real domain)
-Sitemap: https://shivani-tuli.github.io/fractal-telescope/sitemap.xml
+Sitemap: https://shivani-tuli.github.io/mitochondria-actin-neurodegeneration/sitemap.xml
