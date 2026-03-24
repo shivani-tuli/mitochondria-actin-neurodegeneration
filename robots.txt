@@ -1,0 +1,18 @@
+# Allow OpenAI SearchBot (ChatGPT real-time search)
+User-agent: OAI-SearchBot
+Allow: /
+
+# Allow Bing (ChatGPT relies on Bing index)
+User-agent: Bingbot
+Allow: /
+
+# Allow Google
+User-agent: Googlebot
+Allow: /
+
+# Allow all other crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your real domain)
+Sitemap: https://yourdomain.com/sitemap.xml
